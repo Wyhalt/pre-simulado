@@ -38,7 +38,6 @@ Inicio
          consGlicerio<-consGlicerio+1
       fimse
 
-      //Questão  4
       se tipoIMV=3 entao
          rural<-rural+1
          se consMensal>300 entao
@@ -48,18 +47,19 @@ Inicio
 
    fimenquanto
 
-   // Questão 2
    areaMedia<-areaTotal/cont
    escreval("================================================================")
    escreval("Área Média: ",areaMedia:6:2,"m²")
-   //Questão 4
-    percRural<-(rural3/rural)*100
+   
+   percRural<-(rural3/rural)*100
    escreval("Percentual Rural:",percRural:6:2,"%")
-   //Questão 3
+   
    medSan<-sana/consSana
    escreval("Média de consumo pelos imóveis do Sana: R$",medSan:6:2)
+   
    medFra<-frade/consFrade
    escreval("Média de consumo pelos imóveis do Frade: R$",medFra:6:2)
+   
    medGli<-glicerio/consGlicerio
    escreval("Média de consumo pelos imóveis de Glicério: R$",medGli:6:2)
 
