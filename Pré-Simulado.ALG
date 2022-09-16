@@ -1,4 +1,4 @@
-Algoritmo "Estou surtando!!"
+Algoritmo "Pr√©-Simulado - Portugol | VisualG"
 
 Var
    cont, cod, tipoIMV, area, reg : real
@@ -18,7 +18,7 @@ Inicio
       consTotal<- t1+t2
       consMensal<- consTotal/6
       areaTotal<- areaTotal+area
-      escreval("CÛdigo:",cod," | Total:",consTotal," | Mensal: ",consMensal:6:2)
+      escreval("C√≥digo:",cod," | Total:",consTotal," | Mensal: ",consMensal:6:2)
 
       cont<-cont+1
       cod<-cod+1
@@ -38,7 +38,7 @@ Inicio
          consGlicerio<-consGlicerio+1
       fimse
 
-      //Quest„o  4
+      //Quest√£o  4
       se tipoIMV=3 entao
          rural<-rural+1
          se consMensal>300 entao
@@ -48,19 +48,19 @@ Inicio
 
    fimenquanto
 
-   // Quest„o 2
+   // Quest√£o 2
    areaMedia<-areaTotal/cont
    escreval("================================================================")
-   escreval("¡rea MÈdia: ",areaMedia:6:2,"m≤")
-   //Quest„o 4
+   escreval("√Årea M√©dia: ",areaMedia:6:2,"m¬≤")
+   //Quest√£o 4
     percRural<-(rural3/rural)*100
    escreval("Percentual Rural:",percRural:6:2,"%")
-   //Quest„o 3
+   //Quest√£o 3
    medSan<-sana/consSana
-   escreval("MÈdia de consumo pelos imÛveis do Sana: R$",medSan:6:2)
+   escreval("M√©dia de consumo pelos im√≥veis do Sana: R$",medSan:6:2)
    medFra<-frade/consFrade
-   escreval("MÈdia de consumo pelos imÛveis do Frade: R$",medFra:6:2)
+   escreval("M√©dia de consumo pelos im√≥veis do Frade: R$",medFra:6:2)
    medGli<-glicerio/consGlicerio
-   escreval("MÈdia de consumo pelos imÛveis de GlicÈrio: R$",medGli:6:2)
+   escreval("M√©dia de consumo pelos im√≥veis de Glic√©rio: R$",medGli:6:2)
 
 Fimalgoritmo
